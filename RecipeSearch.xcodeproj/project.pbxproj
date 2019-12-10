@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C55464A23A0093D00270BC0 /* Secrets in Resources */ = {isa = PBXBuildFile; fileRef = 0C55464923A0093D00270BC0 /* Secrets */; };
 		5772B7A2239FE136000BB563 /* NetworkHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772B7A1239FE136000BB563 /* NetworkHelperTests.swift */; };
 		57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E98676239F3A8D002C7C7B /* AppDelegate.swift */; };
 		57E98679239F3A8D002C7C7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E98678239F3A8D002C7C7B /* SceneDelegate.swift */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C55464923A0093D00270BC0 /* Secrets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Secrets; path = ../../../../.Trash/Secrets; sourceTree = "<group>"; };
+		0C55464C23A0094E00270BC0 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		5772B7A1239FE136000BB563 /* NetworkHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperTests.swift; sourceTree = "<group>"; };
 		57E98673239F3A8D002C7C7B /* RecipeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E98676239F3A8D002C7C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C55464B23A0094E00270BC0 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				0C55464C23A0094E00270BC0 /* Secrets.swift */,
+			);
+			name = Secrets;
+			path = ../../../.Trash/Secrets;
+			sourceTree = "<group>";
+		};
 		57E9866A239F3A8D002C7C7B = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		57E98675239F3A8D002C7C7B /* RecipeSearch */ = {
 			isa = PBXGroup;
 			children = (
+				0C55464B23A0094E00270BC0 /* Secrets */,
 				57E98698239F3AC5002C7C7B /* Network Services */,
 				57E986A2239F3B0D002C7C7B /* Models */,
 				57E986A3239F3B18002C7C7B /* Views */,
@@ -129,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				57E98676239F3A8D002C7C7B /* AppDelegate.swift */,
+				0C55464923A0093D00270BC0 /* Secrets */,
 				57E98678239F3A8D002C7C7B /* SceneDelegate.swift */,
 				57E9867C239F3A8D002C7C7B /* Main.storyboard */,
 				57E9867F239F3A8F002C7C7B /* Assets.xcassets */,
@@ -240,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C55464A23A0093D00270BC0 /* Secrets in Resources */,
 				57E98683239F3A8F002C7C7B /* LaunchScreen.storyboard in Resources */,
 				57E98680239F3A8F002C7C7B /* Assets.xcassets in Resources */,
 				57E9867E239F3A8D002C7C7B /* Main.storyboard in Resources */,
